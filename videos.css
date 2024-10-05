@@ -1,0 +1,63 @@
+body {
+    background-color: #060608; /* Dark background for space theme */
+    color: #ffffff; /* White text color for contrast */
+    font-family: "Fantasy", "Papyrus"; /* A clean font for readability */
+  }
+  
+  .container {
+    display: flex; /* Use flexbox to arrange items */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align the content */
+    padding: 20px; /* Add some padding */
+  }
+  
+  .exoplanet-title {
+    margin-bottom: 10px; /* Space between title and image */
+    font-size: 55px;
+    font-family: "Fantasy", "Papyrus"; /* A clean font for readability */
+    color: rgb(224, 240, 10);
+  }
+  .sub-head{
+    margin-bottom: 10px; /* Space between title and image */
+    font-size: 45px;
+    font-family: "Fantasy", "Papyrus"; /* A clean font for readability */
+    color: rgb(224, 240, 10);
+  }
+  .exoplanet-video {
+    width: 100%; /* Make the video responsive */
+    max-width: 600px; /* Set a maximum width */
+    border-radius: 10px; /* Round the corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    margin-bottom: 20px; /* Space between video and paragraph */
+}
+.end {
+    font-family: 'Pacifico', cursive; /* Elegant cursive font */
+    font-size: 72px; /* Large, stylish font size */
+    color: #fdd835; /* A soft yellowish shade */
+    text-align: center; /* Center the text */
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Dark shadow for depth */
+    margin-top: 50px; /* Adds space from the top */
+    padding: 20px;
+    background: linear-gradient(145deg, #212121, #484848); /* Black gradient background */
+    border-radius: 15px; /* Rounded corners */
+    font-style: italic; /* Italic text */
+    letter-spacing: 4px; /* Add space between letters */
+    animation: fadeIn 2s ease-in-out; /* Smooth fade-in effect */
+    transition: transform 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.end:hover {
+    transform: scale(1.05) rotate(-2deg); /* Slight zoom and rotation on hover */
+}
+

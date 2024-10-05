@@ -1,0 +1,84 @@
+body {
+  background-color: #060608; /* Dark background for space theme */
+  color: #ffffff; /* White text color for contrast */
+  font-family: "Fantasy", "Papyrus"; /* A clean font for readability */
+}
+
+.container {
+  display: flex; /* Use flexbox to arrange items */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align the content */
+  padding: 20px; /* Add some padding */
+}
+
+.exoplanet-title {
+  margin-bottom: 10px; /* Space between title and image */
+  font-size: 55px;
+  font-family: "Fantasy", "Papyrus"; /* A clean font for readability */
+  color: rgb(224, 240, 10);
+}
+
+.exoplanet-item {
+  max-width: 600px; /* Limit the max width of each item */
+  margin: 20px 0; /* Space between items */
+  text-align: center; /* Center text below each image */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.exoplanet-image {
+  width: 100%; /* Make the images responsive */
+  border-radius: 10px; /* Round the corners of the images */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+.exoplanet-item:hover {
+  transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+p {
+  font-size: 1em; /* Set font size for paragraphs */
+  line-height: 1.5; /* Improve line spacing for readability */
+  margin-top: 10px; /* Space between image and text */
+  color: rgb(224, 240, 10);
+
+}
+
+
+/* Button styling */
+.discovery-button {
+  
+  padding: 10px 20px; /* Add some padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Round the corners */
+  cursor: pointer; /* Change cursor on hover */
+  font-size: 1.2em; /* Increase font size */
+  align-self: center; /* Center the button horizontally */
+  margin-bottom: 20px; /* Space between button and bottom of page */
+  transition: background-color 0.3s; /* Smooth hover effect */
+  border: none; /* Remove default border */
+  border-radius: 25px; /* Rounded corners */
+  background-color: #212910; /* Green background */
+  color: rgb(255, 255, 255); /* White text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background and scale */
+  outline: none; /* Remove outline */
+  
+}
+
+.discovery-button:hover {
+  background-color: #e6b800; /* Darker shade on hover */
+}
+
+  
+  /* Animation for the text */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -50%) translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%) translateY(0);
+    }
+
+}
